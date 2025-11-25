@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aristo Talin | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Aristo.</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="cv-aristo.pdf" target="_blank" class="btn-nav">Download CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <span class="greeting">👋 Halo, saya</span>
+            <h1>Aristo Talin Coeputra</h1>
+            <h2 class="typewriter">Website  <span class="highlight">PORTOFOLIO.</span></h2>
+            <p class="bio-text">
+                Mahasiswa Teknik Informatika Semester 6. Mendaftar posisi Front-End Developer. Website ini dibuat sebagai persyaratan untuk mendaftar magang.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">Lihat Karya Saya <i class="fas fa-arrow-right"></i></a>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/Aristoabd" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aristo-coeputra-2b001b352/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Keahlian Saya</span>
+                <h3>Arsenal Teknologi</h3>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-wrapper">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h4>Front-End Development</h4>
+                    <p class="skill-desc">Membangun antarmuka yang responsif dan interaktif.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4>Back-End & Database</h4>
+                    <p class="skill-desc">Mengelola data dan membangun program.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">PHP Native</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">XAMPP</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h4>Tools & Workflow</h4>
+                    <p class="skill-desc">Tools yang biasa saya gunakan dalam membuat project.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">GitHub</span>
+                        <span class="tech-tag">VS Code</span>
+                        <span class="tech-tag">Postman</span>
+                        <span class="tech-tag">Netlify</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Soft Skills</h4>
+                    <p class="skill-desc">Kemampuan yang saya miliki selama saya berkuliah dan berorganisasi.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Problem Solving</span>
+                        <span class="tech-tag">Logika Algoritma</span>
+                        <span class="tech-tag">Teamwork</span>
+                        <span class="tech-tag">Manajemen Waktu</span>
+                        <span class="tech-tag">Public Speaking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Portofolio</span>
+                <h3>Proyek Aristo</h3>
+            </div>
+
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-img-wrapper">
+                        <img src="images/movieapp.png" alt="Movie App Screenshot">
+                    </div>
+                    <div class="project-details">
+                        <div class="tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <h4>Movie Discovery App</h4>
+                        <p>Aplikasi pencarian film interaktif yang terintegrasi dengan OMDb API. Fitur pencarian real-time, filter data, dan desain responsif.</p>
+                        <div class="project-actions">
+                            <a href="https://playful-croissant-3c3d54.netlify.app/" target="_blank" class="btn-outline">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/Aristoabd/movie-app" target="_blank" class="link-text">Lihat Kode <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item reverse">
+                    <div class="project-img-wrapper">
+                        <img src="images/kemetul.png" alt="Desa Wisata Screenshot">
+                    </div>
+                    <div class="project-details">
+                        <div class="tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h4>Desa Wisata Kemetul</h4>
+                        <p>Website informasi yang memperkenalkan desa wisata dengan fitur lengkap (Login, CRUD, Profile). Design website yang bertemakan natural dan elegan.</p>
+                        <div class="project-actions">
+                            <a href="https://youtu.be/Mm9F3SwXK6c" target="_blank" class="btn-outline">Video Demo <i class="fas fa-play"></i></a>
+                            <a href="https://github.com/Aristoabd/desa_kemetul" target="_blank" class="link-text">Lihat Kode <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container contact-container">
+            <div class="contact-header">
+                <span class="subtitle">Kontak</span>
+                <h3>Mari Terhubung</h3>
+                <p>Saya saat mendaftarkan diri untuk magang untuk memenuhi persyaratan kelulusan saya :). Jika merasa akan cocok jika bekerja bersama saya, dapat  menghubungi saya di bawah ini.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-direct">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info">
+                            <span class="label">Email</span>
+                            <a href="mailto:tavencoeputra@gmail.com" class="text-link">tavencoeputra@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-info">
+                            <span class="label">WhatsApp / Telepon</span>
+                            <a href="https://wa.me/6285314018214" target="_blank" class="text-link">+62 85314018214</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-socials">
+                    <span class="social-label">Ikuti Sosial Media Saya:</span>
+                    <div class="social-buttons">
+                        <a href="https://www.instagram.com/cina_biasa/" target="_blank" class="soc-btn ig">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="http://www.tiktok.com/@coetalin" target="_blank" class="soc-btn tt">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; Aristo Talin Coeputra - 2025.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
